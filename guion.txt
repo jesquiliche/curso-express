@@ -1,0 +1,47 @@
+Introducción
+
+Bienvenida al curso.
+Presentación de los temas a tratar.
+Configuración del entorno de desarrollo.
+Fundamentos de Express y MongoDB
+
+Qué es Express y por qué es popular en el desarrollo de API.
+Introducción a MongoDB y su uso como base de datos NoSQL.
+Instalación de Express y configuración básica de una aplicación.
+Creación de una API RESTful con Express y MongoDB
+
+Definición de rutas y controladores.
+Implementación de los métodos HTTP (GET, POST, PUT, DELETE).
+Conexión con una base de datos MongoDB.
+Introducción a Express-validator
+
+Qué es Express-validator y cómo ayuda a validar los datos recibidos.
+Instalación y configuración de Express-validator en una aplicación Express.
+Creación de validaciones para los campos de entrada.
+Integración de Express-validator en la API
+
+Aplicación de validaciones en las rutas y controladores.
+Manejo de errores de validación y respuestas adecuadas al cliente.
+Autenticación con JWT (JSON Web Tokens)
+
+Conceptos básicos de autenticación y JWT.
+Generación y validación de tokens JWT en Express.
+Protección de rutas específicas con autenticación basada en JWT.
+Documentación de la API con Swagger
+
+Qué es Swagger y por qué es útil para documentar APIs.
+Integración de Swagger en una aplicación Express.
+Uso de anotaciones para documentar rutas, parámetros y respuestas.
+Pruebas y Debugging
+
+Uso de herramientas para realizar pruebas y debugging de la API.
+Utilización de Postman para probar los endpoints de la API.
+Identificación y solución de errores comunes.
+Despliegue en un Entorno de Producción
+
+Preparación de la aplicación para el despliegue en un servidor de producción.
+Consideraciones de seguridad y mejores prácticas.
+Conclusiones
+
+Repaso de los principales conceptos aprendidos.
+Sugerencias para continuar aprendiendo y desarrollándose en el tema.
