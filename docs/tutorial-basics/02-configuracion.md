@@ -94,16 +94,22 @@ Existen dos formas de utilizar MongoDB en nuestras aplicaciones. Una sería hace
 
 Una vez situado en esta página, solicita la **prueba gratuita** y regístrate. Una vez que tu cuenta ha sido registrada, inicia sesión. Deberá aparecerte la siguiente pantalla o similar:
 
-![MongoDB Atlas](/img/mongo1.png)
+![MongoDB Atlas](/img/install_mongo1.png)
 
-En esta pantalla, pulsa el botón verde que dice **Create**. Se te aparecerá la siguiente página.
+En esta pantalla, pulsa el botón verde que dice **Construir una base de datos**. Se te aparecerá la siguiente página.
 
-![MongoDB Atlas](/img/mongo3.png)
+![MongoDB Atlas](/img/install_mongo2.png)
 
-En la opción **Create a Shared Cluster** (Crear cluster compartido) elige la opción **shared (compartido)**, esta opción es completamente gratuita mientras que las otras dos son de pago.
-En la opción **Cloud Provider & Region** deberás escoger el proveedor que nos servirá de almacenamiento en la nube y como región el punto más cercano a tu país. En mi caso, me encuentro en España, por lo que escogeré como región Europa (Paris). Una vez creado el cluster, deberá aparecerte una pantalla similar a esta:
+Escoja la opción gratuita. También escoja el proveedor y en **región**, la región más cercana a su país. Deje el resto de opciones como están. Se le aparecerá la siguiente pantalla: 
 
-![MongoDB Atlas](/img/mongo4.png)
+![MongoDB Atlas](/img/install_mongo3.png)
+
+Escoja la opción de **Username and Password** y escriba su usuario y contraseña. Es importante apuntarse estos datos, pues serán imprescindibles para poder establecer conexión con nuestra BB.DD.
+En la opción de **Add entry your IP address acces list**, pulse la opción **Add Entry". Esta opción sirve para especificar desde que IP's es accesible nuestra base de datos. Escriba 0.0.0.0, esto le indica a MongoDB que se puede acceder a nuestra BB.DD, desde cualquier IP. Esta opción debería estar registrada en un BB.DD de producción, pero como aquí vamos a utilizar esta base de datos con fines educativos no importa. Con esto ya tendríamos configurada nuestra base de datos.
+
+## Instalación y configuración de MongoDB Compass
+
+![MongoDB Atlas](/img/compass1.png)
 
 Pulsa el botón **Connect** y en la ventana que viene a continuación, pulsa la opción **Compass**.
 
@@ -117,6 +123,14 @@ En caso de no tener MongoDB Compass, selecciona la opción marcada en rojo. Se t
 
 ![MongoDB Atlas](/img/mongo7.png)
 
-Selecciona tu sistema operativo y copia la cadena de conexión que se te ofrece (la utilizaremos más adelante). Descarga **MongoDB Compass**. El proceso es totalmente automático.
+Selecciona tu sistema operativo y copia la cadena de conexión que se te ofrece (la utilizaremos más adelante). Descarga **MongoDB Compass**. El proceso es totalmente automático. Por último presione el botón **Domwload**.
 
 ### Configuración de MongoDB Compass 
+
+Después de la instalación de **MongoDB Compass** si no se le ha desplegado automáticamente la Aplicación, se le habrá creado un acceso directo en el escritorio, haga doble Click sobre el mismo. 
+Se te aparecerá la siguiente pantalla:
+
+![MongoDB Compass](/img/mongo_connect.png)
+
+Ahora en el recuadro de **New Connectión** que copiamos anteriormente. Sustituya el texto **"password"** por su password real incluidos los signos "<" y ">". Pulse el botón **Connect**. Listo, ya tenemos configurado nuestro entorno de trabajo. 
+
